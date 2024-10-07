@@ -1,0 +1,5 @@
+Python
+
+poetry - работа с виртуальными окружениями
+postgreSQL
+Django
