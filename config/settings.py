@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "rest_framework",
     "djoser",
-    "src.profiles"
+    "src.profiles",
+    #"src.profiles.apps.ProfilesConfig"
 ]
 
 MIDDLEWARE = [
