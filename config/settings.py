@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-jfd99*2tskiiu)^kh2(sm04z^b(-o3r-e-v(3j0@8lb*+fpqon
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['147.45.109.92']
 
 
 # Application definition
@@ -153,3 +153,5 @@ REST_FRAMEWORK = {
 SIMPLE_JWT = {
    #'AUTH_HEADER_TYPES': ('JWT',),
 }
+
+#AUTH_USER_MODEL = 'src.profiles.UserNet'
