@@ -95,9 +95,9 @@ DATABASES = {
         #"NAME": os.environ.get("POSTGRES_DB", os.path.join(BASE_DIR, "db.sqlite3")),
         "ENGINE": os.environ.get("POSTGRES_ENGINE", "django.db.backends.postgresql"),
         "NAME": os.environ.get("POSTGRES_DB", "kotenet"),
-        "USER": os.environ.get("POSTGRES_USER", "user"),
+        "USER": os.environ.get("POSTGRES_USER", "kotenet_user"),
         "PASSWORD": os.environ.get("POSTGRES_PASSWORD", "password"),
-        "HOST": os.environ.get("POSTGRES_HOST", "localhost"),
+        "HOST": os.environ.get("POSTGRES_HOST", "kotenet_db"),
         "PORT": os.environ.get("POSTGRES_PORT", "5432"),
     }
 }
